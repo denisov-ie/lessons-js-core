@@ -1,0 +1,58 @@
+body {
+    margin-top: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery {
+    display: table;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery__info {
+    display:table-cell;
+    width:30%;
+    height: 400px;
+    background-color: gray;
+    color: black;
+    padding: 2rem 2rem;
+}
+
+.gallery__main-slide {
+    display: table-cell;
+    width:70%;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 400px;
+    background-color: slategray;
+    color: white;
+    font-weight: bold;
+}
+
+.gallery__slides {
+    display: table-cell;
+    position: absolute;
+    left: 0;
+    width:100%;
+    top: 400px;
+    background-color: deepskyblue;
+}
+
+.slides {
+    display: table;
+    width: 100%;
+    padding: 0;
+    border-spacing: 35px 0px;
+}
+
+.slides__slide {
+    display: table-cell;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    background: lightyellow;
+}
