@@ -1,1 +1,1 @@
-# lessons-js-core
+# this is UI Kit
