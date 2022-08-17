@@ -1,0 +1,15 @@
+.square {
+    width: 140px;
+    height: 140px;
+    background: #7fee1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    background: #1deeee;
+    border-radius: 60px;
+}
