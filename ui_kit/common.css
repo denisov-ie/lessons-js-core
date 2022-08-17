@@ -1,0 +1,15 @@
+:root {
+    --background-color-white: white;
+    --background-color-day-light-blue: #BAD8F5;
+    --background-color-day-dark-blue: #287ed5;
+    --background-color-day-medium-blue: #1e65a4;
+    --background-color-day-black: #000000;
+    --background-color-blue: #459DF5;
+    --background-color-red: #F53152;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+}

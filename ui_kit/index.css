@@ -1,0 +1,52 @@
+@import url(common.css);
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem 1rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "checkbox__container radio__container searchbar__container"
+    "button__container button__container searchbar__container"
+    "button__container button__container input__container"
+    "button__container button__container input__container"
+    "button__container button__container input__container"
+    "dropdown__container dropdown__container dropdown__container"
+    "dropdown__container dropdown__container dropdown__container"
+    "dropdown__container dropdown__container dropdown__container";
+}
+
+.checkbox__container {
+    grid-area: checkbox__container;
+    border: 0.0625rem dashed var(--background-color-day-dark-blue);
+}
+
+.radio__container {
+    grid-area: radio__container;
+    border: 0.0625rem dashed var(--background-color-day-dark-blue);
+}
+
+.searchbar__container {
+    grid-area: searchbar__container;
+    border: 0.0625rem dashed var(--background-color-day-dark-blue);
+}
+
+.input__container {
+    grid-area: input__container;
+    border: 0.0625rem dashed var(--background-color-day-dark-blue);
+}
+
+.button__container {
+    grid-area: button__container;
+    border: 0.0625rem dashed var(--background-color-day-dark-blue);
+}
+
+.dropdown__container {
+    grid-area: dropdown__container;
+    border: 0.0625rem dashed var(--background-color-day-dark-blue);
+}
