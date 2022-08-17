@@ -18,8 +18,8 @@
     width: 1rem;
     height: 1rem;
     margin: 0;
-    background-color: var(--background-color-white);
-    border: 0.0625rem solid var(--background-color-day-light-blue);
+    background-color: var(--color-day-white);
+    border: 0.0625rem solid var(--color-day-light-blue);
     border-radius: 0.9375rem;
     box-sizing: border-box;
 }
@@ -30,7 +30,7 @@
     left: 0;
     top: 0;
     width: 1rem;
-    fill: var(--background-color-white);
+    fill: var(--color-day-white);
     transition: opacity 0.25s ease-in;
 }
 
@@ -40,7 +40,7 @@
     align-items: center;
     line-height: inherit;
     font-size: inherit;
-    color: var(--background-color-day-black);
+    color: var(--color-day-black);
 }
 
 .radio__text_enabled {
@@ -61,12 +61,12 @@
 }
 
 .radio__area:active {
-    background-color: var(--background-color-day-light-blue);
+    background-color: var(--color-day-light-blue);
 }
 
 .radio__area:checked {
-    background-color: var(--background-color-blue);
-    border-color: var(--background-color-blue);
+    background-color: var(--color-blue);
+    border-color: var(--color-blue);
     border-radius: 0.9375rem;
 }
 
@@ -79,6 +79,6 @@
 }
 
 .radio__area:checked + .radio__text_enabled {
-    color: var(--background-color-blue);
+    color: var(--color-blue);
 }
 

@@ -1,11 +1,19 @@
 :root {
-    --background-color-white: white;
-    --background-color-day-light-blue: #BAD8F5;
-    --background-color-day-dark-blue: #287ed5;
-    --background-color-day-medium-blue: #1e65a4;
-    --background-color-day-black: #000000;
-    --background-color-blue: #459DF5;
-    --background-color-red: #F53152;
+    --color-day-white: #FFFFFF;
+    --color-day-light-blue: #BAD8F5;
+    --color-day-white-blue: #EBF0F5;
+    --color-day-dark-blue: #287ed5;
+    --color-day-medium-blue: #1e65a4;
+    --color-day-black: #000000;
+    --color-blue: #459DF5;
+    --color-red: #F53152;
+    --color-orange: #FF8C56;
+    --color-green: #0FB864;
+    --color-night-black: #BCC4CC;
+    --color-night-white: #2B2D33;
+    --color-night-light-blue: #454E52;
+    --color-night-white-blue: #171B1F;
+    --dropdown-shadow: rgba(0, 0, 0, 0.1);
 }
 
 body {

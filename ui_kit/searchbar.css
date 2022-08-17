@@ -9,8 +9,8 @@
     justify-content: space-between;
     align-items: center;
     height: 2rem;
-    background-color: var(--background-color-white);
-    border: 0.0625rem solid var(--background-color-blue);
+    background-color: var(--color-day-white);
+    border: 0.0625rem solid var(--color-blue);
     border-radius: 0.25rem;
     padding: 0.5rem 0.25rem 0.5rem 0.5rem;
     box-sizing: border-box;
@@ -33,7 +33,7 @@
 
 .searchbar__icon-search {
     width: 1rem;
-    stroke: var(--background-color-blue);
+    stroke: var(--color-blue);
 }
 
 .searchbar__input {
@@ -44,13 +44,13 @@
     line-height: inherit;
     border: none;
     outline: none;
-    color: var(--background-color-day-black);
+    color: var(--color-day-black);
     background-color: inherit;
     box-sizing: border-box;
 }
 
 .searchbar__input::placeholder {
-    color: var(--background-color-day-light-blue);
+    color: var(--color-day-light-blue);
 }
 
 .searchbar__button {
@@ -72,7 +72,7 @@
 
 .searchbar-button__icon-cross {
     width: 0.5625rem;
-    stroke: var(--background-color-blue);
+    stroke: var(--color-blue);
 }
 
 .searchbar__button:hover {
