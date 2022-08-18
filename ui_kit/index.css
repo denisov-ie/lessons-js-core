@@ -35,10 +35,9 @@ body {
 
 .button__container-inner {
     display: flex;
-    row-gap: 1rem;
-    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
     flex-direction: column;
-    flex: 1 1 auto;
     border: none;
 }
 
