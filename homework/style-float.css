@@ -1,0 +1,56 @@
+@import url(colors.css);
+
+body {
+    margin-top: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery {
+    width: 62.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.gallery__info {
+    float: left;
+    width: 30%;
+    height: 25rem;
+    background-color: var(--color-gray);
+    color: var(--color-black);
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+}
+
+.gallery__main-slide {
+    float: left;
+    width: 70%;
+    height: 25rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25rem;
+    background-color: var(--color-slategray);
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+.gallery__slides {
+    float: left;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: var(--color-deepskyblue);
+}
+
+.slides {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(6.25rem, 1fr));
+}
+
+.slides__slide {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 6.25rem;
+    height: 6.25rem;
+    background: var(--color-lightyellow);
+}
